@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <NuxtLayout name="navbar">
+  <NuxtLayout name="main">
     <div class="flex justify-between w-2/3 mx-auto items-center">
       <div class="title">
         <h1 class="text-6xl font-bold mb-6 leading-tight">

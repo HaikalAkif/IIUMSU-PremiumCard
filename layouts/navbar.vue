@@ -21,7 +21,7 @@
         </ul>
       </div>
     </nav>
-    <div class="flex justify-center items-center flex-grow">
+    <div class="flex justify-center items-start flex-grow">
       <slot />
     </div>
   </div>

@@ -5,5 +5,6 @@ export default defineNuxtConfig({
     ],
     css: [
         '~/assets/fonts/inter.css'
-    ]
+    ],
+    components: true
 })

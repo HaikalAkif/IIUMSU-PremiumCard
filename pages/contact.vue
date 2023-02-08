@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout name="navbar">
-        bruh
+        <h1 class="text-3xl text-center text-emerald-300 ">Testing</h1>
     </NuxtLayout>
 </template>
 
