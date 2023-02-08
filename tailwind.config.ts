@@ -9,11 +9,6 @@ export default <Partial<Config>>{
                 'sans-serif'
             ]
         },
-        colors: {
-            transparent: 'transparent',
-            current: 'currentColor',
-            'gold': '#cda936'
-        },
         extend: {
             animation: {
                 'card-float': 'float 3s ease-in-out infinite'
@@ -29,6 +24,13 @@ export default <Partial<Config>>{
                         transform: 'translateY(-20px)'
                     }
                 }
+            },
+            colors: {
+                transparent: 'transparent',
+                current: 'currentColor',
+                'gold': '#cda936',
+                'black': '#101014',
+                'white': '#e6e6eb'
             }
         }
     },
