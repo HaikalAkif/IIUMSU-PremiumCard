@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
+    border: 2px solid yellow;
 }
 
 body {
@@ -75,10 +76,12 @@ header ul li a:hover {
 }
 
 .network-content{
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	display: flex;
+    justify-content: center;
+    align-items: center;
 	align-items: center;
-	gap: 2.5rem;
+    flex-wrap: wrap;
+	gap: 2rem;
 	margin-top: 5rem;
 }
 
@@ -87,12 +90,14 @@ header ul li a:hover {
 	overflow: hidden;
 	border-radius: 8px;
 	cursor: pointer;
-    height: 200px;
-    width: 300px;
+    height: 350px;
+    width: 500px;
 }
 
 .row img{
-	object-fit: fill;
+    width: 100%;
+    height: 100%;
+	object-fit: cover;
 	border-radius: 8px;
 	display: block;
 	transition: transform 0.5s;
@@ -109,9 +114,9 @@ header ul li a:hover {
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
+	align-items: flex-start;
+	justify-content: flex-end;
+	text-align: left;
 	padding: 0 40px;
 	transition: height 0.5s;
 }
@@ -119,12 +124,12 @@ header ul li a:hover {
 .layer h5{
 	font-size: 20px;
 	font-weight: 600;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 }
 
 .layer p{
-	color: var(--second-color);
-	font-size: 1rem;
+	color: #121212;
+	font-size: 16px;
 	line-height: 1.8;
 }
 
