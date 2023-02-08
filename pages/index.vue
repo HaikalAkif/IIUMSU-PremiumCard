@@ -1,4 +1,8 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+  useHead({
+    title: 'IIUMSU | Premium Card'
+  })
+</script>
 
 <template>
   <NuxtLayout name="navbar">
