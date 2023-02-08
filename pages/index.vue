@@ -9,7 +9,11 @@
     <div class="flex justify-between w-2/3 mx-auto items-center">
       <div class="title">
         <h1 class="text-6xl font-bold mb-6 leading-tight">
-          One Card For<br>Everything
+          <span class="relative">
+            <img class="absolute -translate-y-7 -translate-x-1 scale-110" src="~/assets/images/sketch.webp" alt="">
+            One
+          </span> 
+          Card For<br>Everything
         </h1>
         <p class="text-xl mb-6">Get your item cheaper with a<br>single (nice-looking) card.</p>
         <NuxtLink to="#">
