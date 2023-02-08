@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col h-screen">
+  <div class="flex flex-col h-screen sticky">
     <nav>
       <div class="container mx-auto">
         <ul class="flex flex-wrap items-center justify-center gap-x-12 font-semibold">
