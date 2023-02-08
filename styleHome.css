@@ -204,11 +204,16 @@ footer {
 }
 
 .sketch {
-    position: fixed;
-    top: 25%;
-    left: 12%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(10%, 20%);
     width: 180px;
     height: 150px;
     z-index: -1;
     rotate: 180deg;
+}
+
+.sketch-wrapper {
+    position: relative;
 }
