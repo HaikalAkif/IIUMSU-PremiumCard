@@ -24,6 +24,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 10;
 }
 
 header ul {
@@ -182,4 +183,22 @@ footer {
 .CR p{
 	color: #121212;
 	font-size: 16px;
+}
+
+.circle2 {
+    position: absolute;
+    top: 14%;
+    left: 24%;
+    width: 250px;
+    height: 250px;
+    z-index: -1;
+}
+
+.circle3 {
+    position: absolute;
+    top: 68%;
+    left: 77%;
+    width: 150px;
+    height: 150px;
+    z-index: -1;
 }
