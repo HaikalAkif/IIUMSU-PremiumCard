@@ -16,7 +16,7 @@
           Card For<br>Everything
         </h1>
         <p class="text-xl mb-6">Get your item cheaper with a<br>single (nice-looking) card.</p>
-        <NuxtLink to="#">
+        <NuxtLink to="#" class="btn">
           Read More
         </NuxtLink>
       </div>
@@ -27,4 +27,20 @@
   </NuxtLayout>
 </template>
 
-<style scoped></style>
+<style scoped>
+.btn {
+    color: #efefef;
+    background-color: #121212;
+    padding: 12px 24px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .4s;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background: #121212;
+    color: #efefef;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+</style>

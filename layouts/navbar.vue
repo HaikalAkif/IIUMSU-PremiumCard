@@ -41,21 +41,13 @@ const leftLinks: Link[] = [
   },
   {
     name: 'Buy Now',
-    link: ''
+    link: '/buy'
   },
-  {
-    name: 'Explore',
-    link: ''
-  }
 ];
 
 const rightLinks: Link[] = [
   {
-    name: 'Help',
-    link: ''
-  },
-  {
-    name: 'FAQs',
+    name: 'Vendors',
     link: ''
   },
   {
